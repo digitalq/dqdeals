@@ -11,7 +11,7 @@
 |	http://www.your-site.com/
 |
 */
-$config['base_url']	= "http://localhost/dqdeals/";
+$config['base_url']	= "";
 
 /*
 |--------------------------------------------------------------------------
@@ -333,5 +333,5 @@ $config['proxy_ips'] = '';
 $config['hostname'] = "localhost";
 						   $config['db_username'] = "";
 						   $config['db_password'] = "";
-						   $config['db'] = "dqdeals";
+						   $config['db'] = "deals";
 						   $config['admin_controllers_folder'] 	= 'siteadmin'; //No trailing slash?>
