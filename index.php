@@ -206,6 +206,7 @@ if (is_dir('install/') && file_exists('install/install.php'))
 else if (!file_exists(APPPATH.'config/config'.EXT) || !file_exists(APPPATH.'config/database'.EXT))
 {
 	echo '<h1>Something went wrong</h1>';
+	echo $APPPATH;
 	echo '<p>Missing config files (config.php, database.php) and installer.</p>
 	<strong>Please re-upload the files and run the <a href="install/index.php">installer</a>.</strong>';
 }
