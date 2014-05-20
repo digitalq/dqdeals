@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'ZektonRegular';
+    src: url('../font/zekton__-webfont.eot');
+    src: url('../font/zekton__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/zekton__-webfont.woff') format('woff'),
+         url('../font/zekton__-webfont.ttf') format('truetype'),
+         url('../font/zekton__-webfont.svg#ZektonRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HelveticaCondensedBoldRegular';
+    src: url('../font/helvetica_condensedbold-webfont.eot');
+    src: url('../font/helvetica_condensedbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/helvetica_condensedbold-webfont.woff') format('woff'),
+         url('../font/helvetica_condensedbold-webfont.ttf') format('truetype'),
+         url('../font/helvetica_condensedbold-webfont.svg#HelveticaCondensedBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+background:#fff url(../images/body_bg.jpg) no-repeat center top;
+color:#000;
+font-family:Arial;
+font-size:12px;
+margin:0;
+padding:0;
+text-align:center;
+}
+form,table,p,h1,h2,h3,h4,h5,h6,ul,li,div,dl{
+margin:0;
+padding:0;
+/*font-size:100%;*/
+}
+li{
+padding:0;
+margin:0;
+list-style:none;
+}
+a{
+text-decoration:none;
+outline:none;
+color:#000;
+}
+a:hover{
+text-decoration:none;
+}
+img{
+ border:0;
+vertical-align:middle;
+}
+.clsFloatLeft{
+float:left;
+}
+.clsFloatRight{
+float:right;
+}
+.clsBg_None {
+background:none !important;
+}
+.clsBorder_None {
+border:none!important;
+}
+/* CSS Clearfix */
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearfix {display: inline-table;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* CSS Clearfix */
+.clear{
+clear:both;
+}
+.clsBold {
+font-weight:bold;
+}
+input, select {
+outline:none;
+}
+/* End of Commoon Css */
+#Container {
+width:1000px;
+min-height: 800px;
+margin:0 auto;
+}
+#Logo a {
+display: block;
+height: 59px;
+margin: 0 auto;
+width: 159px;
+}
+#Logo .Slogan a {
+height:auto;
+width:auto;
+}
+.Slogan {
+margin:7px 0 0 0;
+/*font-family: Rockwell;*/
+font-size: 13px;
+color:#333333;
+}
+#Logo {
+float:right;
+margin: 0 135px 0 0;
+width: 253px;
+height:156px;
+padding:4px 0 0 0;
+background:url(../images/logo_bg.png) no-repeat left top;
+}
+#selSignUp_Blk h2 {
+color:#7192de;
+margin: 0 0 29px;
+}
+#selSignUp_Blk h2 span {
+color:#d35b12;
+}
+#selSignUp_Blk {
+width:520px;
+margin: 0 auto;
+padding:66px 0 0 0;
+min-height: 420px;
+}
+#selSignUp_Blk h2 {
+font-family: 'ZektonRegular';
+font-size:25px;
+font-size: 30px;
+}
+#selSignUp_Blk h3 {
+font-family: 'HelveticaCondensedBoldRegular';
+line-height: 28px;
+font-size: 20px;
+padding: 0 15px;
+}
+#selSign_Form {
+background:url(../images/signform_bg.png) no-repeat center top;
+height: 180px;
+width:361px;
+margin: 0 auto 10px;
+text-align:left;
+padding:25px 44px 0;
+}
+.Frm_Error_Msg {
+color:#FF0000;
+margin:5px 0 5px 0;
+}
+select.Frm_Error_Msg,input.Frm_Error_Msg
+{
+	margin:0px !important;	
+}
+.clsInput_Bg2 .Frm_Error_Msg {
+margin:15px 0 5px;
+}
+.clsInput_Bg1 {
+background:url(../images/input_bg.png) no-repeat center top;
+width:331px;
+padding:0 15px;
+height: auto;
+min-height: 58px;
+}
+.clsInput_Bg2 {
+background:url(../images/input_bg.png) no-repeat center top;
+width:331px;
+height: auto;
+min-height: 48px;
+padding:10px 15px 0;
+}
+.clsInput_Bg1 input {
+vertical-align:middle;
+height:40px;
+line-height:40px;
+width:331px;
+background:none;
+border:none;
+color: #858585;
+font-size: 15px;
+}
+.clsInput_Bg2 select {
+width:331px;
+color: #858585;
+font-size: 15px;
+background:none;
+border:none;
+}
+.clsSign_Btn {
+background:url(../images/sign_butt.png) no-repeat center top;
+width:109px;
+height:32px;
+line-height:32px;
+margin:0 15px 0 0;
+padding: 0 0 4px;
+text-align:center;
+color:#fff;
+font-weight:bold;
+float:left;
+border:none;
+font-family:Arial;
+font-size: 13px;
+cursor:pointer;
+}
+.clsButt_Blk a {
+display:block;
+float:left;
+}
+#Footer {
+color:#4260a3;
+}
+#Footer a {
+color:#4260a3;
+padding:0 5px 0 0;
+margin:0 0 0 5px;
+}
+#Footer a:hover {
+text-decoration:underline;
+}
+.subscribe_skip {
+color:#FF0000;
+margin: 10px 0 0 10px;
+}
+.subscribe_skip:hover {
+text-decoration:underline;
+}

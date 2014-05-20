@@ -1,0 +1,436 @@
+/* CSS Document */
+body
+{
+ font-family:Arial, Helvetica, sans-serif;
+	font-size:80%;  /*-- Enables font size scaling in MSIE  --*/
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:#fff url(../images/body_bg.jpg) no-repeat center top;
+}
+
+.clsAlign
+{
+text-align:right;
+}
+
+/* Clear Fix*/
+
+.clsclearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clsclearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clsclearfix {height: 1%;}
+.clsclearfix {display: block;}
+/* End hide from IE-mac */
+
+.clsinputbox
+{
+font:11px Verdana, Arial, Helvetica, sans-serif;
+color:#2A3F00;
+}
+/* SIDE ROUNDED CORNERS*/
+#header {
+height: 160px;
+}
+#header_inner {
+margin:0 auto;
+width:1010px;
+}
+.top_t {
+	background:#fcfcfc url(../images/tp_tb.jpg) 0px top repeat-x;
+	}
+.top_b{
+	background: url(../images/tp_bb.jpg) 0px bottom repeat-x;
+}
+.top_r{
+	background: url(../images/tp_rb.jpg) right 0px repeat-y;
+	}
+.top_l{
+	background: url(../images/tp_lb.jpg) 0px 0px repeat-y;
+	}
+.top_tl {
+	background: url(../images/tp_tlc.jpg) left top no-repeat;
+	}
+.top_tr{
+	background: url(../images/tp_trc.jpg) right 0px no-repeat;
+	}
+.top_bl{
+	background: url(../images/tp_blc.jpg) left bottom no-repeat;
+	}
+.top_br{
+	background: url(../images/tp_brc.jpg) right bottom no-repeat;
+	padding:10px;
+	}
+* html .cls100_p{
+	width:100%;
+	}
+	
+.block {
+	/*margin-bottom:10px;*/
+	height:1%;
+	}
+
+/*END OF SIDE ROUNDED CORNERS*/	
+
+/* SIDE ROUNDED CORNERS*/
+
+.blue_t {
+	background:#abedfc url(../images/blue_tb.jpg) 0px top repeat-x;
+	}
+.blue_b{
+	background: url(../images/blue_bb.jpg) 0px bottom repeat-x;
+}
+.blue_r{
+	background: url(../images/blue_rb.jpg) right 0px repeat-y;
+	}
+.blue_l{
+	background: url(../images/blue_lb.jpg) 0px 0px repeat-y;
+	}
+.blue_tl {
+	background: url(../images/blue_tlc.jpg) left top no-repeat;
+	}
+.blue_tr{
+	background: url(../images/blue_trc.jpg) right 0px no-repeat;
+	}
+.blue_bl{
+	background: url(../images/blue_blc.jpg) left bottom no-repeat;
+	}
+.blue_br{
+	background: url(../images/blue_brc.jpg) right bottom no-repeat;
+	padding:10px;
+	}
+* html .cls100_p{
+	width:100%;
+	}
+.block {
+	/*margin-bottom:10px;*/
+	height:1%;
+	}
+
+/*END OF SIDE ROUNDED CORNERS*/	
+/* SIDE ROUNDED CORNERS*/
+
+.b_t {
+	background:#fff url(../images/tb.jpg) 0px top repeat-x;
+	}
+.b_b{
+	background: url(../images/bb.jpg) 0px bottom repeat-x;
+}
+.b_r{
+	background: url(../images/rb.jpg) right 0px repeat-y;
+	}
+.b_l{
+	background: url(../images/lb.jpg) 0px 0px repeat-y;
+	}
+.b_tl {
+	background: url(../images/tlc.jpg) left top no-repeat;
+	}
+.b_tr{
+	background: url(../images/trc.jpg) right 0px no-repeat;
+	}
+.b_bl{
+	background: url(../images/blc.jpg) left bottom no-repeat;
+	}
+.b_br{
+	background: url(../images/brc.jpg) right bottom no-repeat;
+	padding:10px;
+	}
+* html .cls100_p{
+	width:100%;
+	}
+.block {
+	margin-bottom:10px;
+	height:1%;
+	}
+
+/*END OF SIDE ROUNDED CORNERS*/	
+
+
+
+#container
+{
+width:1000px;
+margin:0 auto;
+padding:8px;
+text-align:left;
+
+}
+
+#selLeftHeader
+{
+background: url("../images/header_left_bg.png") no-repeat scroll center top transparent;
+height: 155px;
+padding: 5px 0 0;
+text-align: center;
+width: 253px;
+float:left;
+}
+#main {
+background:#fff;
+ margin: 15px 0 0;
+}
+#selLeftHeader h1
+{
+background:url(../images/logo.png) no-repeat scroll left top;
+height: 59px;
+margin: 0 auto;
+width: 161px;
+}
+#selLeftHeader h1 a{
+display:block;
+height: 59px;
+width: 161px;
+overflow:hidden;
+text-indent:-2000em;
+}
+#selLeftHeader p {
+font-size:12px;
+margin:10px 0 0;
+}
+#selLeftHeader p a {
+color:#000;
+}
+#selRightHeader 
+{
+margin: 40px 0 0 30px;
+float:right;
+width:377px;
+}
+#selRightHeader li {
+float:left;
+}
+#selRightHeader li a:hover {
+text-decoration:none;
+}
+#selRightHeader li a
+{
+ background:url(../images/a_left.png) no-repeat scroll left center transparent;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#selRightHeader li a span {
+   background: url(../images/sapn_right.png) repeat-x scroll right center transparent;
+    cursor: pointer;
+    display: block;
+    padding: 0 10px 0 0;
+}
+#selBanner
+{
+
+vertical-align:middle;
+ color: #7192de;
+padding: 41px 0;
+}
+#selBanner h2
+{
+/*background:transparent url(../images/step-1.jpg) no-repeat right 0px ;*/
+float:left;
+height:33px;
+padding:0px 20px;
+font-family:14px Verdana, Arial, Helvetica, sans-serif;
+width: 520px;
+line-height:30px;
+}
+
+#selMain
+{
+}
+
+#selMain h2
+{
+font-family:14pt "Arial", Helvetica, sans-serif;
+color:#D35B12;
+padding:0 10px;
+text-transform:uppercase;
+margin:0 0 10px 0;
+}
+#selMain p
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+line-height:18px;
+padding:20px 10px 10px 0;
+font-size:8pt;
+}
+#selMain span
+{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:10pt;
+padding:0 20px;
+}
+#selMain .clsContant
+{
+}
+
+
+#selMain .clsForm
+{
+padding:0px 0 20px 0;
+}
+#selMain .clsForm li
+{
+padding-right:10px;
+}
+
+#selMain .clsContent p
+{
+line-height:35px;
+}
+
+#selMain .clsForm p
+{
+padding:5px 20px;
+}
+
+#selMain font
+{
+color:#FF0000;
+font-size:12px;
+font-weight:bold;
+}
+
+#selMain .clsForm input
+{
+width:350px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+
+
+#selMain .clsFormRight
+{
+}
+
+#selMain .clsHead
+{
+background:transparent url(../images/right.jpg) no-repeat scroll left center;
+font-weight:bold;
+font-size:13px;
+padding-left:40px;
+}
+
+
+
+
+
+
+#footer p
+{
+padding:25px 25px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:10pt;
+text-align:center;
+}
+
+/*-------------------------------------------------------*/
+/*#header
+{
+  margin-bottom:20px;
+}
+#banner
+{
+  margin-bottom:50px;
+}
+.clear
+{
+ height:1%;
+}
+.main
+{
+   margin-bottom:20px;
+    
+}
+#footer
+{
+  margin-bottom:20px;
+  overflow:hidden;
+}
+*/
+
+
+
+
+
+.clsMain_Content {
+padding:0 10px;
+}
+
+#selMain .clsbtn {
+    background: url("../images/sighn_up_bg.png") no-repeat scroll center top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    height: 24px;
+    margin: 0 0 0 10px;
+	line-height:24px;
+    text-transform: uppercase;
+    width: 100px;
+	padding-bottom: 2px;
+}
+
+#banner {
+height:112px;
+}
+/* Inner page */
+.clsSin_Top {
+background:url(../images/sin_top.png) no-repeat center top;
+padding:12px 0 0;
+}
+.clsSin_Bttm {
+background:url(../images/sin_bttm.png) no-repeat center bottom;
+padding:0 0 11px 0;
+}
+.clsSin_Mid {
+background:url(../images/sin_mid.png) repeat-y center top;
+width:1000px;
+}
+#MainCont_Single {
+padding:0 15px;
+}
+.error
+{
+	padding-left:20px;
+	color:#FF0000;
+}
+ul.alerts.info li {
+    background: #ECFBFF;
+    border-color: #C3ECF7;
+}
+ul.alerts.info div {
+    background:url(../images/close_icon.png) no-repeat 10px 7px;
+    color:red;
+}
+ul.alerts div {
+    margin: 0 auto;
+    padding: 8px 10px 10px 16px;
+    position: relative;
+}
+ul.alerts li {
+    background-clip: padding-box;
+    border: 2px solid;
+    border-radius: 9px 9px 9px 9px;
+    font-size: 1.6em;
+    font-weight: bold;
+    height: auto;
+	color:red;
+    padding: 0;
+}
+#File_alerts {
+margin:0 0 10px 0;
+}
