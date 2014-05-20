@@ -1,5 +1,6 @@
 <?php
 	$this->load->view("header");
+	echo "Test Page Loading...";
 ?>
 <div id="Main_left" class="clsFloatLeft">
 <h1 class="Main_Tittle"><span>Welcome to <?php echo $this->config->item("google_ad_sense")?>!</span> 24 hours to buy and consume up to 6 months </h1>

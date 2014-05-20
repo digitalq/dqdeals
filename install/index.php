@@ -4,6 +4,8 @@ error_reporting(E_ERROR);
 require_once("../application/config/config.php");
 include "db.php";
 
+echo "config.php file loaded";
+
 if(	$config['hostname'] != '' &&
 		$config['db_username'] != '' && 
 		$config['db'] != '')
